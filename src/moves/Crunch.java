@@ -9,5 +9,8 @@ public final class Crunch extends PhysicalMove {
     @Override protected void applyOppEffects(Pokemon p) {
         Effect e = new Effect().chance(0.2).stat(Stat.DEFENSE, -1);
         p.addEffect(e);
+        if (e.success()) {
+            System.out.println("ХРУСТИМ!");
+        }
     }
 }

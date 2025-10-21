@@ -1,7 +1,8 @@
 package moves;
 import ru.ifmo.se.pokemon.*;
+import java.util.Arrays;
 
-public final class SludgeBomb extends SpecialMove {
+public final class SludgeBomb extends PoisonMovePh {
     public SludgeBomb() {
         super(Type.POISON, 90, 1.0);
     }

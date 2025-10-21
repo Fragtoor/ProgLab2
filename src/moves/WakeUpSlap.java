@@ -1,7 +1,7 @@
 package moves;
 import ru.ifmo.se.pokemon.*;
 
-public final class WakeUpSlap extends PhysicalMove {
+public final class WakeUpSlap extends WaterMovePh {
     public WakeUpSlap() {
         super(Type.FIGHTING, 70, 1.0);
     }

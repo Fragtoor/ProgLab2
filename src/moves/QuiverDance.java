@@ -1,7 +1,7 @@
 package moves;
 import ru.ifmo.se.pokemon.*;
 
-public final class QuiverDance extends StatusMove {
+public final class QuiverDance extends GrassMoveSp {
     public QuiverDance() {
         super(Type.BUG, 0, 1.0);
     }
